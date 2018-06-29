@@ -30,7 +30,7 @@ https.get("https://s2.coinmarketcap.com/generated/search/quick_search.json", (re
   });
   response.on("end", () => {
     CMCresult = JSON.parse(CMCresult);
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < CMCresult.length; i++) {
       cryptocurrencyDownloadUrls.push(`https://s2.coinmarketcap.com/static/img/coins/${chosenFormat}/${CMCresult[i].id}.png`);
     }
     (async function loop() {
