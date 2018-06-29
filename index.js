@@ -68,8 +68,8 @@ https.get("https://s2.coinmarketcap.com/generated/search/quick_search.json", (re
         });
         if (i === cryptocurrencyDownloadUrls.length - 1) {
           console.log("Done! If this tool was helpfull to you please consider a donation:");
-          console.log("BTC: ");
-          console.log("ETH: ");
+          console.log("BTC: 1Lawi284xuNSL2QPPnpeLp637oN74M7LCQ");
+          console.log("ETH: 0x06DF41dE423167AD8D761AfBcbcb95D0508CF541");
           console.log("LTC: LYjsYCTn1BgbXkGjizRiurjC4YMh2VZsF2");
         }
       }
