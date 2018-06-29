@@ -5,7 +5,7 @@ const https = require("https");
 
 const iconDestination = `${__dirname}/icons/`;
 const availableFormats = ["128x128", "64x64", "32x32", "16x16"];
-const avaibableNames = ["rank", "slug", "name", "symbol"];
+const avaibableNames = ["rank", "slug", "symbol"];
 
 let chosenFormat = availableFormats[0];
 let chosenName = avaibableNames[1];
