@@ -1,0 +1,24 @@
+{
+  "name": "coinmarketcap-icons",
+  "version": "1.0.0",
+  "description": "A simple script for downloading all cryptocurrency icons from CoinMarketCap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MitchDorrestijn/coinmarketcap-icons.git"
+  },
+  "keywords": [
+    "coinmarketcap",
+    "icons",
+    "cryptocurrency"
+  ],
+  "author": "Mitch Dorrestijn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MitchDorrestijn/coinmarketcap-icons/issues"
+  },
+  "homepage": "https://github.com/MitchDorrestijn/coinmarketcap-icons#readme"
+}
